@@ -1,15 +1,14 @@
-[11:48:43] [main/ERROR]: Unknown biome, defaulting to plains
-[11:48:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[11:48:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:48:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:48:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:48:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:48:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:48:44] [main/INFO]: Reloading ResourceManager: Default, treecapitator-v2-5-4-1568017495.zip, chest-protection-e730.zip, fs1-6-6.zip, Ships v9 for [1.15.2], multiplayer sleep v1.0.1.zip, player graves v1.6.1.zip, silk-touch-spawners-v1-3-1565027733.zip, datapack sammlung.zip, auto-utilities-vein-mining-v1-1-2.zip, immersive-sounding-datapack-v-1-0-2.zip, Plated_Elytra_3.0.zip, Effective_Netherite_Armour_1.0.zip
-[11:48:45] [Worker-Main-12/ERROR]: Couldn't parse loot table immersive:on_nether
+[20:47:18] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[20:47:19] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:47:19] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:47:19] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:47:19] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:47:19] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:47:19] [main/INFO]: Reloading ResourceManager: Default, treecapitator-v2-5-4-1568017495.zip, chest-protection-e730.zip, fs1-6-6.zip, Ships v9 for [1.15.2], multiplayer sleep v1.0.1.zip, player graves v1.6.1.zip, silk-touch-spawners-v1-3-1565027733.zip, datapack sammlung.zip, auto-utilities-vein-mining-v1-1-2.zip, immersive-sounding-datapack-v-1-0-2.zip, Plated_Elytra_3.0.zip, Effective_Netherite_Armour_1.0.zip
+[20:47:20] [Worker-Main-13/ERROR]: Couldn't parse loot table immersive:on_nether
 com.google.gson.JsonSyntaxException: Unknown biome 'minecraft:nether'
 	at bu.a(SourceFile:158) ~[server.jar:?]
-	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_251]
 	at bu.a(SourceFile:158) ~[server.jar:?]
 	at dcs$a.b(SourceFile:58) ~[server.jar:?]
 	at dcs$a.a(SourceFile:41) ~[server.jar:?]
@@ -19,74 +18,72 @@ com.google.gson.JsonSyntaxException: Unknown biome 'minecraft:nether'
 	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server.jar:?]
 	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server.jar:?]
 	at dag.a(SourceFile:47) ~[server.jar:?]
-	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_241]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_251]
 	at dag.a(SourceFile:41) ~[server.jar:?]
 	at dag.a(SourceFile:23) ~[server.jar:?]
 	at aba.a(SourceFile:13) ~[server.jar:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_251]
 	at abb.a(SourceFile:71) ~[server.jar:?]
 	at abb.a(SourceFile:70) ~[server.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture.postFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture.postFire(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_251]
 	at abb.a(SourceFile:71) ~[server.jar:?]
 	at abb.a(SourceFile:70) ~[server.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture.complete(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture.complete(Unknown Source) ~[?:1.8.0_251]
 	at abb$1.a(SourceFile:53) ~[server.jar:?]
 	at abb$1.a(SourceFile:50) ~[server.jar:?]
-	at java.util.concurrent.CompletableFuture.uniCompose(Unknown Source) [?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source) [?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_241]
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_241]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_241]
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_241]
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_241]
-[11:48:45] [Worker-Main-12/INFO]: Loaded 6 recipes
-[11:48:45] [Worker-Main-12/INFO]: Loaded 956 advancements
-[11:48:46] [Server thread/INFO]: Starting minecraft server version 20w22a
-[11:48:46] [Server thread/INFO]: Loading properties
-[11:48:46] [Server thread/INFO]: Default game type: SURVIVAL
-[11:48:46] [Server thread/INFO]: Generating keypair
-[11:48:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:48:46] [Server thread/INFO]: Using default channel type
-[11:48:46] [Server thread/INFO]: Preparing level "world"
-[11:48:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:48:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:48:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:48:48] [Server thread/INFO]: Preparing spawn area: 0%
-[11:48:48] [Server thread/INFO]: Preparing spawn area: 0%
-[11:48:48] [Server thread/INFO]: Time elapsed: 1814 ms
-[11:48:48] [Server thread/INFO]: Done (2.022s)! For help, type "help"
-[11:48:50] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:48:50] [Server thread/INFO]:  <--[HERE]
-[11:48:50] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:48:50] [Server thread/INFO]: <--[HERE]
-[11:48:50] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:48:50] [Server thread/INFO]: <--[HERE]
-[11:48:52] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:48:52] [Server thread/INFO]: stopstop<--[HERE]
-[11:48:56] [Server thread/INFO]: Stopping the server
-[11:48:56] [Server thread/INFO]: Stopping server
-[11:48:56] [Server thread/INFO]: Saving players
-[11:48:56] [Server thread/INFO]: Saving worlds
-[11:48:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:48:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[11:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:48:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[11:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+	at java.util.concurrent.CompletableFuture.uniCompose(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_251]
+[20:47:20] [Worker-Main-13/INFO]: Loaded 6 recipes
+[20:47:20] [Worker-Main-13/INFO]: Loaded 956 advancements
+[20:47:21] [Server thread/INFO]: Starting minecraft server version 20w22a
+[20:47:21] [Server thread/INFO]: Loading properties
+[20:47:21] [Server thread/INFO]: Default game type: SURVIVAL
+[20:47:21] [Server thread/INFO]: Generating keypair
+[20:47:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:47:21] [Server thread/INFO]: Using default channel type
+[20:47:21] [Server thread/INFO]: Preparing level "world"
+[20:47:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:47:22] [Server thread/INFO]: Preparing spawn area: 0%
+[20:47:22] [Server thread/INFO]: Preparing spawn area: 0%
+[20:47:22] [Server thread/INFO]: Preparing spawn area: 0%
+[20:47:23] [Server thread/INFO]: Preparing spawn area: 0%
+[20:47:23] [Server thread/INFO]: Preparing spawn area: 83%
+[20:47:24] [Server thread/INFO]: Time elapsed: 2333 ms
+[20:47:24] [Server thread/INFO]: Done (2.547s)! For help, type "help"
+[20:47:26] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:47:26] [Server thread/INFO]: <--[HERE]
+[20:47:26] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:47:26] [Server thread/INFO]: <--[HERE]
+[20:47:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2072ms or 41 ticks behind
+[20:56:39] [Server thread/INFO]: Stopping the server
+[20:56:39] [Server thread/INFO]: Stopping server
+[20:56:39] [Server thread/INFO]: Saving players
+[20:56:39] [Server thread/INFO]: Saving worlds
+[20:56:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:56:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:56:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
