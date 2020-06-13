@@ -575,12 +575,6 @@
     },
     "done": true
   },
-  "minecraft:husbandry/break_diamond_hoe": {
-    "criteria": {
-      "netherite_hoe": "2020-05-14 15:58:53 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_white_dye": "2020-02-27 23:16:03 +0100"
@@ -703,7 +697,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-06-02 11:40:56 +0200"
+      "tick": "2020-06-13 20:23:16 +0200"
     },
     "done": false
   },
@@ -4695,5 +4689,5 @@
     },
     "done": true
   },
-  "DataVersion": 2555
+  "DataVersion": 2561
 }

@@ -1,32 +1,32 @@
-[20:15:55] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[20:15:56] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:15:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:15:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:15:56] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:15:56] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:15:56] [main/INFO]: Reloading ResourceManager: Default, treecapitator-v2-5-4-1568017495.zip, chest-protection-e730.zip, fs1-6-6.zip, Ships v9 for [1.15.2], multiplayer sleep v1.0.1.zip, player graves v1.6.1.zip, silk-touch-spawners-v1-3-1565027733.zip, datapack sammlung.zip, auto-utilities-vein-mining-v1-1-2.zip, immersive-sounding-datapack-v-1-0-2.zip, Plated_Elytra_3.0.zip, Effective_Netherite_Armour_1.0.zip
-[20:15:57] [Worker-Main-14/ERROR]: Couldn't parse loot table immersive:on_nether
+[20:20:23] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[20:20:24] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:20:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:20:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:20:24] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:20:24] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:20:24] [main/INFO]: Reloading ResourceManager: Default, treecapitator-v2-5-4-1568017495.zip, chest-protection-e730.zip, fs1-6-6.zip, Ships v9 for [1.15.2], multiplayer sleep v1.0.1.zip, player graves v1.6.1.zip, silk-touch-spawners-v1-3-1565027733.zip, datapack sammlung.zip, auto-utilities-vein-mining-v1-1-2.zip, immersive-sounding-datapack-v-1-0-2.zip, Plated_Elytra_3.0.zip, Effective_Netherite_Armour_1.0.zip
+[20:20:25] [Worker-Main-11/ERROR]: Couldn't parse loot table immersive:on_nether
 com.google.gson.JsonSyntaxException: Unknown biome 'minecraft:nether'
 	at bu.a(SourceFile:158) ~[server.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_251]
 	at bu.a(SourceFile:158) ~[server.jar:?]
-	at dcs$a.b(SourceFile:58) ~[server.jar:?]
-	at dcs$a.a(SourceFile:41) ~[server.jar:?]
-	at czz$c.deserialize(SourceFile:83) ~[server.jar:?]
+	at ddk$a.b(SourceFile:58) ~[server.jar:?]
+	at ddk$a.a(SourceFile:41) ~[server.jar:?]
+	at dar$c.deserialize(SourceFile:83) ~[server.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server.jar:?]
 	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server.jar:?]
 	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server.jar:?]
 	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server.jar:?]
-	at dag.a(SourceFile:47) ~[server.jar:?]
+	at day.a(SourceFile:47) ~[server.jar:?]
 	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_251]
-	at dag.a(SourceFile:41) ~[server.jar:?]
-	at dag.a(SourceFile:23) ~[server.jar:?]
-	at aba.a(SourceFile:13) ~[server.jar:?]
+	at day.a(SourceFile:41) ~[server.jar:?]
+	at day.a(SourceFile:23) ~[server.jar:?]
+	at abe.a(SourceFile:13) ~[server.jar:?]
 	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_251]
-	at abb.a(SourceFile:71) ~[server.jar:?]
-	at abb.a(SourceFile:70) ~[server.jar:?]
+	at abf.a(SourceFile:71) ~[server.jar:?]
+	at abf.a(SourceFile:70) ~[server.jar:?]
 	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_251]
@@ -34,15 +34,15 @@ com.google.gson.JsonSyntaxException: Unknown biome 'minecraft:nether'
 	at java.util.concurrent.CompletableFuture.postFire(Unknown Source) ~[?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_251]
-	at abb.a(SourceFile:71) ~[server.jar:?]
-	at abb.a(SourceFile:70) ~[server.jar:?]
+	at abf.a(SourceFile:71) ~[server.jar:?]
+	at abf.a(SourceFile:70) ~[server.jar:?]
 	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture.complete(Unknown Source) ~[?:1.8.0_251]
-	at abb$1.a(SourceFile:53) ~[server.jar:?]
-	at abb$1.a(SourceFile:50) ~[server.jar:?]
+	at abf$1.a(SourceFile:53) ~[server.jar:?]
+	at abf$1.a(SourceFile:50) ~[server.jar:?]
 	at java.util.concurrent.CompletableFuture.uniCompose(Unknown Source) [?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source) [?:1.8.0_251]
 	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_251]
@@ -52,38 +52,64 @@ com.google.gson.JsonSyntaxException: Unknown biome 'minecraft:nether'
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_251]
 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_251]
 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_251]
-[20:15:57] [Worker-Main-14/INFO]: Loaded 6 recipes
-[20:15:57] [Worker-Main-14/INFO]: Loaded 956 advancements
-[20:15:58] [Server thread/INFO]: Starting minecraft server version 20w22a
-[20:15:58] [Server thread/INFO]: Loading properties
-[20:15:58] [Server thread/INFO]: Default game type: SURVIVAL
-[20:15:58] [Server thread/INFO]: Generating keypair
-[20:15:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:15:58] [Server thread/INFO]: Using default channel type
-[20:15:58] [Server thread/INFO]: Preparing level "world"
-[20:15:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:16:00] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:00] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:00] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:01] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:01] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:01] [Server thread/INFO]: Time elapsed: 2319 ms
-[20:16:01] [Server thread/INFO]: Done (2.466s)! For help, type "help"
-[20:16:03] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:16:03] [Server thread/INFO]: <--[HERE]
-[20:16:03] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:16:03] [Server thread/INFO]: <--[HERE]
-[20:16:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2242ms or 44 ticks behind
-[20:16:08] [Server thread/INFO]: Stopping the server
-[20:16:08] [Server thread/INFO]: Stopping server
-[20:16:08] [Server thread/INFO]: Saving players
-[20:16:08] [Server thread/INFO]: Saving worlds
-[20:16:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:16:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:16:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:20:25] [Worker-Main-11/INFO]: Loaded 7 recipes
+[20:20:25] [Worker-Main-11/INFO]: Loaded 965 advancements
+[20:20:26] [Server thread/INFO]: Starting minecraft server version 1.16 Pre-release 5
+[20:20:26] [Server thread/INFO]: Loading properties
+[20:20:26] [Server thread/INFO]: Default game type: SURVIVAL
+[20:20:26] [Server thread/INFO]: Generating keypair
+[20:20:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:20:26] [Server thread/INFO]: Using default channel type
+[20:20:26] [Server thread/INFO]: Preparing level "world"
+[20:20:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:20:27] [Server thread/INFO]: Preparing spawn area: 0%
+[20:20:27] [Server thread/INFO]: Preparing spawn area: 0%
+[20:20:28] [Server thread/INFO]: Preparing spawn area: 0%
+[20:20:28] [Server thread/INFO]: Preparing spawn area: 0%
+[20:20:28] [Server thread/INFO]: Time elapsed: 2086 ms
+[20:20:28] [Server thread/INFO]: Done (2.217s)! For help, type "help"
+[20:20:30] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:20:30] [Server thread/INFO]: <--[HERE]
+[20:20:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[20:21:09] [User Authenticator #1/INFO]: UUID of player HiImEno is bec0465b-f1c7-487b-a649-3600252d58e5
+[20:21:09] [Server thread/WARN]: Ignored advancement 'main:main/track_stats' in progress file .\world\advancements\bec0465b-f1c7-487b-a649-3600252d58e5.json - it doesn't exist anymore?
+[20:21:09] [Server thread/INFO]: HiImEno[/95.91.239.140:15011] logged in with entity id 104 at (-389.43931471638564, 73.0, -434.06040000730906)
+[20:21:09] [Server thread/INFO]: HiImEno joined the game
+[20:21:09] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:spawner
+[20:21:11] [User Authenticator #2/INFO]: UUID of player Seehafenwolke64 is 848c9a6d-be15-4ab6-8963-b1d34d8bc695
+[20:21:11] [Server thread/WARN]: Ignored advancement 'minecraft:husbandry/break_diamond_hoe' in progress file .\world\advancements\848c9a6d-be15-4ab6-8963-b1d34d8bc695.json - it doesn't exist anymore?
+[20:21:11] [Server thread/INFO]: Seehafenwolke64[/127.0.0.1:57796] logged in with entity id 322 at (-411.40708496475196, 111.0, -737.4802950670963)
+[20:21:11] [Server thread/INFO]: Seehafenwolke64 joined the game
+[20:21:11] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:spawner
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:21:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
+[20:21:13] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[20:23:39] [Server thread/INFO]: HiImEno lost connection: Disconnected
+[20:23:39] [Server thread/INFO]: HiImEno left the game
+[20:23:40] [Server thread/INFO]: Seehafenwolke64 lost connection: Disconnected
+[20:23:40] [Server thread/INFO]: Seehafenwolke64 left the game
+[20:23:51] [Server thread/INFO]: Stopping the server
+[20:23:51] [Server thread/INFO]: Stopping server
+[20:23:51] [Server thread/INFO]: Saving players
+[20:23:51] [Server thread/INFO]: Saving worlds
+[20:23:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:23:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:23:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:23:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:23:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:23:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:23:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
