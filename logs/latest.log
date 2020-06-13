@@ -1,11 +1,11 @@
-[20:47:18] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[20:47:19] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:47:19] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:47:19] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:47:19] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:47:19] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:47:19] [main/INFO]: Reloading ResourceManager: Default, treecapitator-v2-5-4-1568017495.zip, chest-protection-e730.zip, fs1-6-6.zip, Ships v9 for [1.15.2], multiplayer sleep v1.0.1.zip, player graves v1.6.1.zip, silk-touch-spawners-v1-3-1565027733.zip, datapack sammlung.zip, auto-utilities-vein-mining-v1-1-2.zip, immersive-sounding-datapack-v-1-0-2.zip, Plated_Elytra_3.0.zip, Effective_Netherite_Armour_1.0.zip
-[20:47:20] [Worker-Main-13/ERROR]: Couldn't parse loot table immersive:on_nether
+[20:15:55] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[20:15:56] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:15:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:15:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:15:56] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:15:56] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:15:56] [main/INFO]: Reloading ResourceManager: Default, treecapitator-v2-5-4-1568017495.zip, chest-protection-e730.zip, fs1-6-6.zip, Ships v9 for [1.15.2], multiplayer sleep v1.0.1.zip, player graves v1.6.1.zip, silk-touch-spawners-v1-3-1565027733.zip, datapack sammlung.zip, auto-utilities-vein-mining-v1-1-2.zip, immersive-sounding-datapack-v-1-0-2.zip, Plated_Elytra_3.0.zip, Effective_Netherite_Armour_1.0.zip
+[20:15:57] [Worker-Main-14/ERROR]: Couldn't parse loot table immersive:on_nether
 com.google.gson.JsonSyntaxException: Unknown biome 'minecraft:nether'
 	at bu.a(SourceFile:158) ~[server.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_251]
@@ -52,38 +52,38 @@ com.google.gson.JsonSyntaxException: Unknown biome 'minecraft:nether'
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_251]
 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_251]
 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_251]
-[20:47:20] [Worker-Main-13/INFO]: Loaded 6 recipes
-[20:47:20] [Worker-Main-13/INFO]: Loaded 956 advancements
-[20:47:21] [Server thread/INFO]: Starting minecraft server version 20w22a
-[20:47:21] [Server thread/INFO]: Loading properties
-[20:47:21] [Server thread/INFO]: Default game type: SURVIVAL
-[20:47:21] [Server thread/INFO]: Generating keypair
-[20:47:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:47:21] [Server thread/INFO]: Using default channel type
-[20:47:21] [Server thread/INFO]: Preparing level "world"
-[20:47:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:47:22] [Server thread/INFO]: Preparing spawn area: 0%
-[20:47:22] [Server thread/INFO]: Preparing spawn area: 0%
-[20:47:22] [Server thread/INFO]: Preparing spawn area: 0%
-[20:47:23] [Server thread/INFO]: Preparing spawn area: 0%
-[20:47:23] [Server thread/INFO]: Preparing spawn area: 83%
-[20:47:24] [Server thread/INFO]: Time elapsed: 2333 ms
-[20:47:24] [Server thread/INFO]: Done (2.547s)! For help, type "help"
-[20:47:26] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:47:26] [Server thread/INFO]: <--[HERE]
-[20:47:26] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:47:26] [Server thread/INFO]: <--[HERE]
-[20:47:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2072ms or 41 ticks behind
-[20:56:39] [Server thread/INFO]: Stopping the server
-[20:56:39] [Server thread/INFO]: Stopping server
-[20:56:39] [Server thread/INFO]: Saving players
-[20:56:39] [Server thread/INFO]: Saving worlds
-[20:56:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:56:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:56:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:15:57] [Worker-Main-14/INFO]: Loaded 6 recipes
+[20:15:57] [Worker-Main-14/INFO]: Loaded 956 advancements
+[20:15:58] [Server thread/INFO]: Starting minecraft server version 20w22a
+[20:15:58] [Server thread/INFO]: Loading properties
+[20:15:58] [Server thread/INFO]: Default game type: SURVIVAL
+[20:15:58] [Server thread/INFO]: Generating keypair
+[20:15:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:15:58] [Server thread/INFO]: Using default channel type
+[20:15:58] [Server thread/INFO]: Preparing level "world"
+[20:15:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:16:00] [Server thread/INFO]: Preparing spawn area: 0%
+[20:16:00] [Server thread/INFO]: Preparing spawn area: 0%
+[20:16:00] [Server thread/INFO]: Preparing spawn area: 0%
+[20:16:01] [Server thread/INFO]: Preparing spawn area: 0%
+[20:16:01] [Server thread/INFO]: Preparing spawn area: 0%
+[20:16:01] [Server thread/INFO]: Time elapsed: 2319 ms
+[20:16:01] [Server thread/INFO]: Done (2.466s)! For help, type "help"
+[20:16:03] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:16:03] [Server thread/INFO]: <--[HERE]
+[20:16:03] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:16:03] [Server thread/INFO]: <--[HERE]
+[20:16:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2242ms or 44 ticks behind
+[20:16:08] [Server thread/INFO]: Stopping the server
+[20:16:08] [Server thread/INFO]: Stopping server
+[20:16:08] [Server thread/INFO]: Saving players
+[20:16:08] [Server thread/INFO]: Saving worlds
+[20:16:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:16:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:16:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
